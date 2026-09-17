@@ -302,7 +302,7 @@ st.markdown(
 # ============================================================
 
 
-BASE_DIR = Path(r'/Users/deepakanumula/Desktop/insurance_ai/data').resolve().parent
+BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 
 POLICIES_FILE = DATA_DIR / "policies.csv"
