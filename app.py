@@ -301,11 +301,12 @@ st.markdown(
 # 3. DATA PATH — portable, works on any machine/username
 # ============================================================
 
-DATA_DIR = Path(r'/Users/deepakanumula/Documents/insureTech/InsurTech_Assessment-3_Anumula Deepak/Data').resolve().parent / "data"
+
+BASE_DIR = Path(r'/Users/deepakanumula/Desktop/insurance_ai/data').resolve().parent
+DATA_DIR = BASE_DIR / "data"
 
 POLICIES_FILE = DATA_DIR / "policies.csv"
 CLAIMS_FILE = DATA_DIR / "claims.csv"
-
 
 # ============================================================
 # 4. DATA FILE VALIDATION
